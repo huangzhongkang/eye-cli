@@ -1,0 +1,17 @@
+1，表格搜索时，input输入应重新请求接口search最新数据
+
+
+2，无法搜索第二层数据
+
+
+3，表格条数选择所有修改为：
+
+	InitPage() { // 根据所选select条数初始化页码
+        	if (this.select_val === '选择所有') { // 判断是显示所有还是其他
+          this.pageSize = Object.keys(this.Init_tableData).length;
+          this.select_val = this.pageSize;
+        }
+
+
+
+4，规则策略-->接口安全策略下方固定一个自定义添加表格行

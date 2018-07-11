@@ -1,0 +1,2368 @@
+[
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "云规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "是",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "云规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "是",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  },
+  {
+    "ruleType": "本地规则",
+    "belongsType": {
+      "first": "202",
+      "second": "密码文件窃取"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attack": "成功",
+    "backDoor": "否",
+    "score": "0",
+    "repair": "test",
+    "note": "test"
+  }
+]

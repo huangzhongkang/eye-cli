@@ -1,0 +1,210 @@
+[
+  {
+    "port": "70",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "71",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "true"
+  },
+  {
+    "port": "72",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "73",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "74",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "75",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "76",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "77",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "78",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "79",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "80",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "81",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "80",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "80",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+  {
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+{
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+{
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+{
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+{
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+{
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+{
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+{
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+{
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  },
+{
+    "port": "90",
+    "agreement": "HTTP",
+    "type": "禁止使用端口",
+    "assetsIP": "50.50.111.111",
+    "time": "2018-07-04 09:34:41",
+    "dealWith": "false"
+  }
+]

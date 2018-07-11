@@ -1,0 +1,122 @@
+[
+  {
+    "type": {
+      "first": "201",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "是"
+  },
+  {
+    "type": {
+      "first": "202",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  },
+  {
+    "type": {
+      "first": "203",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "是"
+  },
+  {
+    "type": {
+      "first": "204",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  },
+  {
+    "type": {
+      "first": "205",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  },
+  {
+    "type": {
+      "first": "206",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  },
+  {
+    "type": {
+      "first": "207",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  },
+  {
+    "type": {
+      "first": "208",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  },
+  {
+    "type": {
+      "first": "203",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  },
+  {
+    "type": {
+      "first": "203",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  },
+  {
+    "type": {
+      "first": "203",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  },
+  {
+    "type": {
+      "first": "203",
+      "second": "代理反弹攻击"
+    },
+    "rule": "未开启操作模式",
+    "level": "高危",
+    "attached": "成功",
+    "backDoor": "否"
+  }
+]

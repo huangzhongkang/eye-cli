@@ -1,0 +1,492 @@
+/**
+*
+*通用
+*
+**/
+//tabs切换
+.el-tabs__item:focus.is-active.is-focus:not(:active) {
+  box-shadow: 0 0 0 0 #409eff inset;
+  border-radius: 3px;
+}
+
+// input
+.common-wrap {
+  /* input样式 */
+  .ipt_reg {
+    input {
+      background: #ffe7e7;
+    }
+  }
+  input {
+    border-color: #ccc;
+  }
+  .input-style {
+    width: 520px;
+    input {
+      height: 34px;
+    }
+  }
+  .input-style-200px {
+    width: 200px;
+    input {
+      height: 34px;
+    }
+  }
+  .input-style-266px {
+    width: 266px;
+    margin-right: 20px;
+    input {
+      height: 34px;
+    }
+  }
+  .input-style-300px {
+    width: 300px;
+    input {
+      height: 34px;
+    }
+    margin-right: 20px;
+  }
+  .input-style-400px {
+    width: 400px;
+    input {
+      height: 34px;
+    }
+    margin-right: 20px;
+  }
+  .el-input.is-disabled .el-input__inner {
+    background-color: rgb(221, 221, 221);
+    color: #676a6c;
+    opacity: 0.65;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+// select
+.select-style-300px {
+  width: 300px;
+}
+
+.select-style-70px {
+  width: 70px;
+  input {
+    height: 26px!important;
+  }
+
+}
+
+// textarea
+textarea {
+  border: 1px solid #ccc !important;
+}
+
+.textarea-style {
+  width: 100%;
+  textarea {
+    height: 100px;
+  }
+}
+
+.textarea-style-300px {
+  width: 300px;
+  textarea {
+    height: 100px;
+  }
+}
+
+/** 表格 **/
+// 资产table
+.table-expand-style, .element-table-style {
+  border: 1px solid #ddd;
+  .is-leaf {
+    height: 40px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd !important;
+    .cell {
+      color: rgb(103, 106, 108);
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  .el-table__row td {
+    border-color: #ddd;
+  }
+  .el-table__body {
+    .el-table__row {
+      height: 140px;
+      cursor: pointer;
+      td {
+        background-color: transparent !important;
+      }
+      .cell {
+        color: rgb(103, 106, 108);
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+    .el-table__row:hover {
+      background-color: #f5f5f5 !important;
+    }
+    .el-table__row:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+  }
+  .el-table__expand-column {
+    i {
+      display: none;
+    }
+  }
+}
+
+// 有边框的表格
+.border-element-table {
+  margin-top: 15px;
+  .userList-select {
+    width: 100px;
+  }
+  .el-table__header th {
+    height: 31px;
+    padding: 0;
+    .cell {
+      font-weight: normal;
+    }
+  }
+  .el-table__body .el-table__row {
+    height: 61px !important;
+  }
+  .el-table__header th, .el-table__row > td {
+    border-right: 1px solid #ddd;
+  }
+  .el-table__header th:nth-last-child(2), .el-table__row > td:nth-last-child(1) {
+    border-right: none !important;
+  }
+}
+
+// 表格height 110
+.element-tableHeight-110px {
+  .el-table__body .el-table__row {
+    height: 110px !important;
+  }
+}
+
+/** dialog **/
+// dialog写的messageBox
+.form-control:focus, .el-textarea__inner:focus {
+  border: 1px solid #66afe9 !important;
+}
+
+.message-box-dialog {
+  .el-dialog__header {
+    padding: 10px 15px 10px;
+    background-color: rgb(248, 248, 248);
+    .el-dialog__headerbtn {
+      top: 10px;
+    }
+    .el-dialog__title {
+      font-size: 14px;
+      color: rgb(51, 51, 51);
+    }
+  }
+  .el-dialog__footer {
+    padding: 10px 20px;
+  }
+  .el-dialog__body {
+    padding: 20px 20px 10px;
+  }
+  .message-box-textarea {
+    height: 100px !important;
+  }
+}
+
+.dialog-rule-operation {
+  .el-dialog {
+    border: 6px solid rgba(0, 0, 0, .6);
+    .el-dialog__headerbtn .el-dialog__close {
+      color: #000;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+  }
+  .el-dialog__header {
+    padding: 15px 0 0 0;
+    .el-dialog__headerbtn {
+      top: 10px;
+    }
+  }
+
+}
+
+.el-dialog {
+  position: absolute;
+  display: flex;
+  max-height: calc(100% - 30px);
+  max-width: calc(100% - 30px);
+  top: 50%;
+  left: 50%;
+  margin: 0 !important;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  .el-dialog__body {
+    overflow: auto
+  }
+}
+
+/**
+*
+*威胁侦测-->运维视角
+*
+**/
+/** 资产 **/
+.common-wrap {
+  .el-tabs--card > .el-tabs__header .el-tabs__nav {
+    width: 75px;
+    height: 42px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+  .el-tabs--card > .el-tabs__header .el-tabs__item {
+    height: 42px;
+    margin: 0 1px;
+    color: #A7B1C2;
+    border: 1px solid transparent;
+    border-left: none;
+    border-radius: 4px 4px 0 0;
+    transition: background-color .3s ease-in-out;
+    &:hover {
+      background-color: #e6e6e6;
+      color: #676a6c;
+    }
+    span {
+      font-weight: 600;
+    }
+  }
+  .el-tabs--card > .el-tabs__header .el-tabs__item.is-active {
+    color: #555;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+  }
+  #search_group {
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+    input {
+      border-radius: 4px 0 0 4px;
+      border-color: #409EFF;
+      outline: 0;
+    }
+    .show-input {
+      transform: translateX(100%);
+      transition: all .2s ease-in-out;
+      z-index: 999;
+    }
+  }
+}
+
+.element-style {
+  select, input {
+    height: 34px !important;
+  }
+}
+
+.el-menu {
+  background: transparent;
+}
+
+// 资产table搜索框
+.operational-perspective {
+  .table-search {
+    input {
+      border-radius: 4px 0 0 4px !important;
+    }
+  }
+}
+
+.el-popover {
+  min-width: 256px;
+  padding: 0;
+  .popover-content {
+    padding: 10px;
+    .select {
+      width: 100%;
+      height: 42px;
+      margin-bottom: 10px;
+      input {
+        height: 34px;
+      }
+      .el-input__suffix {
+        height: 34px;
+        top: 5px;
+      }
+    }
+    input {
+      height: 34px;
+      margin: 5px 0 15px;
+    }
+    button {
+      margin-right: 15px;
+    }
+    button:nth-last-child(1) {
+      margin-right: 0;
+    }
+  }
+}
+
+//提示框
+.el-tooltip__popper {
+  padding: 4px 6px;
+}
+
+/**
+*
+*规则配置
+*
+**/
+/** 规则策略-->接口安全配置 **/
+.interface-table {
+  .el-table__header-wrapper {
+    .cell {
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    }
+  }
+}
+
+/**
+*
+*业务配置
+*
+**/
+/** 资产设置-->资产分组 **/
+.assets-group-table {
+  margin-top: 10px;
+  .is-leaf {
+    border-right: 1px solid #ddd;
+    &:nth-last-child(2) {
+      border-right: none;
+    }
+  }
+  .el-table__body {
+    .el-table__row {
+      height: 50px;
+      cursor: default;
+      td {
+        border-right: 1px solid #ddd;
+        &:nth-last-of-type(1) {
+          border-right: none;
+        }
+      }
+    }
+  }
+}
+
+/** 资产设置-->管理操作 **/
+
+.textarea-wrap {
+  textarea {
+    height: 100px;
+  }
+}
+
+.el-tag {
+  float: left;
+  margin: 5px 10px 5px 10px;
+  border: dotted 1px red;
+  color: #999;
+  background-color: #fff;
+}
+
+/** 敏感端口配置 **/
+.search-port {
+  .el-range-editor--small.el-input__inner {
+    width: 340px;
+  }
+}
+
+/**
+*
+*系统配置
+*
+**/
+/** 用户管理-->用户列表 **/
+.userList-wrap {
+  .userList-select, .table-search {
+    input {
+      height: 30px !important;
+      font-size: 12px;
+    }
+  }
+  .userList-element-table {
+    margin-top: 15px;
+    .userList-select {
+      width: 100px;
+    }
+    .el-table__header th {
+      height: 31px;
+      padding: 0;
+      .cell {
+        font-weight: normal;
+      }
+    }
+    .el-table__body .el-table__row {
+      height: 61px;
+    }
+    .el-table__header th, .el-table__row > td {
+      border-right: 1px solid #ddd;
+    }
+    .el-table__header th:nth-last-child(2), .el-table__row > td:nth-last-child(1) {
+      border-right: none !important;
+    }
+  }
+}
+
+/** 用户管理-->新增用户 **/
+.add-user-wrap {
+  .input-style {
+    input {
+      height: 34px;
+      border: 1px solid #ccc;
+    }
+  }
+  /* input正则样式 */
+  .ipt_reg {
+    input {
+      background: #ffe7e7;
+    }
+  }
+}
+
+/** 出厂配置-->基本信息 **/
+.factory-wrap {
+  input {
+    height: 34px !important;
+    border: 1px solid #ccc;
+  }
+  .el-input-number__decrease {
+    background: #e36159;
+    border: 1px solid #df4c43;
+    border-radius: 1px 0 0 1px !important;
+    .el-icon-minus {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      transform: scale(.8, 1);
+      vertical-align: middle;
+    }
+  }
+  .el-input-number__increase {
+    background: #23b7e5;
+    border: 1px solid #19a9d5;
+    border-radius: 0 1px 1px 0 !important;
+    .el-icon-plus {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      transform: scale(.8, .8);
+      vertical-align: middle;
+    }
+  }
+}

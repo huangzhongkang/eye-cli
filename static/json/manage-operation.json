@@ -1,0 +1,17 @@
+[
+  {
+    "name": "研发部",
+    "show": "true",
+    "disabled": "false"
+  },
+  {
+    "name": "测试部",
+    "show": "true",
+    "disabled": "false"
+  },
+  {
+    "name": "市场部",
+    "show": "false",
+    "disabled": "true"
+  }
+]
