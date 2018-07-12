@@ -95,6 +95,15 @@ textarea {
   }
 }
 
+// 下拉菜单
+.export-dropdown-menu{
+  width: 145px;
+  border: 1px solid #ddd;
+  li:nth-of-type(1){
+    border-bottom: 1px solid #ddd;
+  }
+}
+
 /** 表格 **/
 // 资产table
 .table-expand-style, .element-table-style {
