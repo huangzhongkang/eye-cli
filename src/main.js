@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.min.js'
 import './assets/css/common/common-css.scss'
 import './assets/css/common/element-cover.scss'
-import 'bootstrap-switch/dist/css/bootstrap3/bootstrap-switch.min.css'
+import 'bootstrap-switch/dist/css/bootstrap2/bootstrap-switch.min.css'
 import 'bootstrap-switch/dist/js/bootstrap-switch.min.js'
 
 Vue.use(elementUi, {size: 'small'});

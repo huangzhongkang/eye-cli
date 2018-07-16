@@ -69,104 +69,104 @@
       return{
         select_time_start: '',
         select_time_end: '',
-        time_options:[
-          {
-            value: "1",
-            label: "0"
-          },
-          {
-            value: "2",
-            label: "1"
-          },
-          {
-            value: "3",
-            label: "2"
-          },
-          {
-            value: "4",
-            label: "3"
-          },
-          {
-            value: "5",
-            label: "4"
-          },
-          {
-            value: "6",
-            label: "5"
-          },
-          {
-            value: "7",
-            label: "6"
-          },
-          {
-            value: "8",
-            label: "7"
-          },
-          {
-            value: "9",
-            label: "8"
-          },
-          {
-            value: "10",
-            label: "9"
-          },
-          {
-            value: "11",
-            label: "10"
-          },
-          {
-            value: "12",
-            label: "11"
-          },
-          {
-            value: "13",
-            label: "12"
-          },
-          {
-            value: "14",
-            label: "13"
-          },
-          {
-            value: "15",
-            label: "14"
-          },
-          {
-            value: "16",
-            label: "15"
-          },
-          {
-            value: "17",
-            label: "16"
-          },
-          {
-            value: "18",
-            label: "17"
-          },
-          {
-            value: "19",
-            label: "18"
-          },
-          {
-            value: "20",
-            label: "9"
-          },
-          {
-            value: "21",
-            label: "20"
-          },
-          {
-            value: "22",
-            label: "21"
-          },
-          {
-            value: "23",
-            label: "22"
-          },
-          {
-            value: "24",
-            label: "23"
-          }
-        ]
+          time_options: [
+              {
+                  value: "1",
+                  label: "0点"
+              },
+              {
+                  value: "2",
+                  label: "1点"
+              },
+              {
+                  value: "3",
+                  label: "2点"
+              },
+              {
+                  value: "4",
+                  label: "3点"
+              },
+              {
+                  value: "5",
+                  label: "4点"
+              },
+              {
+                  value: "6",
+                  label: "5点"
+              },
+              {
+                  value: "7",
+                  label: "6点"
+              },
+              {
+                  value: "8",
+                  label: "7点"
+              },
+              {
+                  value: "9",
+                  label: "8点"
+              },
+              {
+                  value: "10",
+                  label: "9点"
+              },
+              {
+                  value: "11",
+                  label: "10点"
+              },
+              {
+                  value: "12",
+                  label: "11点"
+              },
+              {
+                  value: "13",
+                  label: "12点"
+              },
+              {
+                  value: "14",
+                  label: "13点"
+              },
+              {
+                  value: "15",
+                  label: "14点"
+              },
+              {
+                  value: "16",
+                  label: "15点"
+              },
+              {
+                  value: "17",
+                  label: "16点"
+              },
+              {
+                  value: "18",
+                  label: "17点"
+              },
+              {
+                  value: "19",
+                  label: "18点"
+              },
+              {
+                  value: "20",
+                  label: "19点"
+              },
+              {
+                  value: "21",
+                  label: "20点"
+              },
+              {
+                  value: "22",
+                  label: "21点"
+              },
+              {
+                  value: "23",
+                  label: "22点"
+              },
+              {
+                  value: "24",
+                  label: "23点"
+              }
+          ]
       }
     }
   }

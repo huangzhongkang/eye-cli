@@ -18,11 +18,14 @@
                                         <span class="btn btn-info btn-xs">备注</span>
                                     </div>
                                     <div class="right">
-                                        <el-input class="textarea-style-300px" type="textarea"></el-input>
+                                        <el-input class="textarea-style-300px" type="textarea" placeholder="最大支持20个英文字符/10个中文字符"></el-input>
                                     </div>
                                 </div>
                             </div>
-                            <div class="btn btn-primary btn-sm">添加阻断IP</div>
+                            <div @click="clickAddBlockIP" class="btn btn-primary btn-sm">添加阻断IP</div>
+                            <div class="dash-border">
+                                <Table></Table>
+                            </div>
                         </div>
                     </div>
                 </el-tab-pane>
@@ -32,30 +35,61 @@
 </template>
 
 <script>
+    import Table from './table/attack-block-table'
+
     export default {
         name: "attack-block",
+        components: {
+            Table
+        },
         data() {
-            return{
+            return {
                 activeName: 'first'
+            }
+        },
+        methods: {
+            /** submitLoading **/
+            submitLoading() {
+                const loading = this.$loading({
+                    lock: true,
+                    text: '处理中',
+                    spinner: 'el-icon-loading',
+                    background: 'rgba(0, 0, 0, 0.7)'
+                });
+                setTimeout(() => {
+                    loading.close();
+                    this.$message({
+                        message: '操作成功',
+                        type: 'success'
+                    });
+                }, 800);
+            },
+            clickAddBlockIP() {
+                this.submitLoading();
             }
         }
     }
 </script>
 
 <style lang="scss" scoped>
-.padding10-20{
-    padding:10px 20px;
-    .common-table-layout{
-        width: 50%;
-        height: 100px;
-        margin: 20px 0;
-        .left{
-            width: 10%;
-            text-align: center;
+    .padding10-20 {
+        padding: 10px 20px;
+        .common-table-layout {
+            width: 50%;
+            height: 100px;
+            margin: 20px 0 10px;
+            .left {
+                width: 10%;
+                text-align: center;
+            }
+            .right {
+                width: 100%;
+            }
         }
-        .right{
-            width: 100%;
+        .dash-border {
+            margin: 15px 0;
+            padding: 0 10px 20px;
+            border: 1px dashed #ddd;
         }
     }
-}
 </style>

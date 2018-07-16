@@ -3,6 +3,11 @@
 *通用
 *
 **/
+// loading
+.el-loading-parent--hidden {
+  overflow: visible !important;
+}
+
 //tabs切换
 .el-tabs__item:focus.is-active.is-focus:not(:active) {
   box-shadow: 0 0 0 0 #409eff inset;
@@ -24,6 +29,27 @@
     width: 520px;
     input {
       height: 34px;
+    }
+  }
+  .input-style-140px {
+    width: 140px;
+    input {
+      height: 24px;
+    }
+  }
+  .input-style-80px {
+    width: 80px;
+    input {
+      height: 34px;
+    }
+  }
+  .email-notice{
+    .input-style-140px {
+      width: 140px;
+      input {
+        height: 24px;
+        border-radius: 4px 0 0 4px;
+      }
     }
   }
   .input-style-200px {
@@ -53,10 +79,18 @@
     }
     margin-right: 20px;
   }
+  .input-style-500px {
+    width: 500px;
+    input {
+      height: 34px;
+    }
+    margin-right: 20px;
+  }
   .el-input.is-disabled .el-input__inner {
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(238, 238, 238);
+    border-color: rgb(204, 204, 204);
     color: #676a6c;
-    opacity: 0.65;
+    opacity: 1;
     &:hover {
       opacity: 1;
     }
@@ -70,10 +104,39 @@
 
 .select-style-70px {
   width: 70px;
-  input {
-    height: 26px!important;
-  }
+}
 
+.select-style-100px {
+  width: 100px;
+  input {
+  }
+}
+
+.select-styleHeight-24px {
+  width: 100px;
+  input {
+    height: 24px!important;
+    border-radius: 2px 0 0 2px;
+  }
+  .el-input--suffix .el-input__inner {
+    padding-right: 20px;
+  }
+  .el-input__prefix, .el-input__suffix {
+    position: absolute;
+    top: -4px;
+    right: 2px;
+    -webkit-transition: all .3s;
+    height: auto;
+    color: #c0c4cc;
+    text-align: center;
+  }
+}
+
+.select-no-borderRight{
+  margin-right: -4px;
+  input{
+    border-right: none;
+  }
 }
 
 // textarea
@@ -95,11 +158,17 @@ textarea {
   }
 }
 
+.textarea-styleHeight-60px {
+  textarea {
+    height: 60px;
+  }
+}
+
 // 下拉菜单
-.export-dropdown-menu{
+.export-dropdown-menu {
   width: 145px;
   border: 1px solid #ddd;
-  li:nth-of-type(1){
+  li:nth-of-type(1) {
     border-bottom: 1px solid #ddd;
   }
 }
@@ -125,7 +194,6 @@ textarea {
   .el-table__body {
     .el-table__row {
       height: 140px;
-      cursor: pointer;
       td {
         background-color: transparent !important;
       }
@@ -146,6 +214,12 @@ textarea {
     i {
       display: none;
     }
+  }
+}
+
+.table-expand-style {
+  .el-table__body .el-table__row {
+    cursor: pointer;
   }
 }
 
@@ -173,10 +247,29 @@ textarea {
   }
 }
 
+// 表格height 72
+.element-tableHeight-72px {
+  .el-table__body .el-table__row {
+    height: 72px !important;
+  }
+}
+
 // 表格height 110
 .element-tableHeight-110px {
   .el-table__body .el-table__row {
     height: 110px !important;
+  }
+}
+
+/** CheckBox外层 **/
+.intercept-box {
+  .el-checkbox {
+    min-width: 150px;
+    margin: 8px;
+    float: left;
+    padding: 4px 8px;
+    color: #999;
+    border: dotted 1px red;
   }
 }
 

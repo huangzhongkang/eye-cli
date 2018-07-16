@@ -400,3 +400,64 @@ body {
     }
   }
 }
+
+/*bootstrap-switch*/
+.bootstrap-switch.bootstrap-switch-small {
+  min-width: 76px !important;
+}
+
+/** label **/
+body .label {
+  padding: 4px 8px !important;
+  border-radius: 2px !important;
+  text-shadow: none !important;
+}
+
+.label, .badge {
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.label.badge-square, .badge.badge-square {
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+.label-success, .badge-success {
+  color: #fff !important;
+}
+
+.label-danger, .badge-danger {
+  background-color: #e36159 !important;
+  color: #fff !important;
+}
+
+.label-warning, .badge-warning {
+  background-color: #edbc6c !important;
+  color: #fff !important;
+}
+
+.label-info, .badge-info {
+  background-color: #23b7e5 !important;
+  color: #fff !important;
+}
+
+.label-primary, .badge-primary {
+  background-color: #3278b3 !important;
+  color: #fff !important;
+}
+
+.label-purple, .badge-purple {
+  background-color: #7266ba !important;
+  color: #fff !important;
+}
+
+.left-side-inner > .nav > li > a:focus, .left-side-inner > .nav > li > a:hover {
+  background-color: #353f4f;
+}
+
+.label {
+  padding-bottom: 0.2em !important;
+  font-weight: normal !important;
+}

@@ -107,7 +107,7 @@
   export default {
     name: "manage",
     mounted () {
-      $('.switch input').bootstrapSwitch();
+        $('.switch input').bootstrapSwitch('onText', '开启').bootstrapSwitch('offText', '关闭').bootstrapSwitch("onColor", 'success').bootstrapSwitch('state', true);
     }
   }
 </script>

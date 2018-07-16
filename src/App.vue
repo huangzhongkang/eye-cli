@@ -11,6 +11,17 @@
                 </div>
             </div>
 
+            <!--威胁预警-->
+            <div class="box-test clearfix">
+                <div class="flex">
+                    <div class="btn btn-warning">威胁预警</div>
+                </div>
+                <div class="flex">
+                    <router-link class="btn btn-default router" to="/threatWarning/emailWarning">邮件预警</router-link>
+                    <router-link class="btn btn-default router" to="/threatWarning/smsWarning">短信预警</router-link>
+                </div>
+            </div>
+
             <!--威胁处置-->
             <div class="box-test clearfix">
                 <div class="flex">
@@ -18,6 +29,7 @@
                 </div>
                 <div class="flex">
                     <router-link class="btn btn-default router" to="/threatDisposal/attackBlock">攻击阻断</router-link>
+                    <router-link class="btn btn-default router" to="/threatDisposal/jointDefense">联动联防</router-link>
                 </div>
             </div>
 
@@ -107,7 +119,7 @@
 <style lang="scss">
     .box-test {
         float: left;
-        width: 300px;
+        width: 280px;
         height: 200px;
         margin: 10px;
         border: 1px solid #ddd;

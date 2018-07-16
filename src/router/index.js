@@ -3,10 +3,15 @@ import Router from 'vue-router'
 
 /** 威胁侦测 **/
 import operationalPerspective
-    from '@/components/pages/threart-detection/operational-perspective/operational-perspective.vue'
+    from '@/components/pages/threat-detection/operational-perspective/operational-perspective.vue'
+
+/** 威胁预警 **/
+import emailWarning from '@/components/pages/threat-warning/email-warning/email-warning'
+import smsWarning from '@/components/pages/threat-warning/sms-warning/sms-warning'
 
 /** 威胁处置 **/
 import attackBlock from '@/components/pages/threat-disposal/attack-block/attack-block'
+import jointDefense from '@/components/pages/threat-disposal/joint-defense/joint-defense'
 
 /** 威胁报告 **/
 import threatReport from '@/components/pages/threat-report/threat-report'
@@ -51,9 +56,24 @@ export default new Router({
             component: operationalPerspective
         },
         {
+            path: '/threatWarning/emailWarning',
+            name: '',
+            component: emailWarning
+        },
+        {
+            path: '/threatWarning/smsWarning',
+            name: '',
+            component: smsWarning
+        },
+        {
             path: '/threatDisposal/attackBlock',
-            name: 'attack-block',
+            name: '',
             component: attackBlock
+        },
+        {
+            path: '/threatDisposal/jointDefense',
+            name: '',
+            component: jointDefense
         },
         {
             path: '/threatReport',
