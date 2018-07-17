@@ -24,7 +24,7 @@
 </template>
 
 <script>
-    import emailNotice from './children/email-notice'
+    import emailNotice from '../common/notice'
     import emailListTable from './children/email-list-table'
     import emailServeConfig from './children/email-serve-config'
 

@@ -52,6 +52,12 @@
       }
     }
   }
+  .input-style-80px {
+    width: 80px;
+    input {
+      height: 34px;
+    }
+  }
   .input-style-200px {
     width: 200px;
     input {
@@ -153,6 +159,13 @@ textarea {
 
 .textarea-style-300px {
   width: 300px;
+  textarea {
+    height: 100px;
+  }
+}
+
+.textarea-style-500px {
+  width: 500px;
   textarea {
     height: 100px;
   }

@@ -5,6 +5,11 @@ import Router from 'vue-router'
 import operationalPerspective
     from '@/components/pages/threat-detection/operational-perspective/operational-perspective.vue'
 
+/** 决策分析 **/
+import attackAnalysis from '@/components/pages/decision-analysis/attack-analysis/attack-analysis'
+import assetsAnalysis from '@/components/pages/decision-analysis/assets-analysis/assets-analysis'
+import attackDistribution from '@/components/pages/decision-analysis/attack-distribution/attack-distribution'
+
 /** 威胁预警 **/
 import emailWarning from '@/components/pages/threat-warning/email-warning/email-warning'
 import smsWarning from '@/components/pages/threat-warning/sms-warning/sms-warning'
@@ -49,12 +54,17 @@ Vue.use(Router);
 
 export default new Router({
     routes: [
+        /** 威胁侦测 **/
         {
             path: '/',
             // path: '/operationalPerspective',
             name: 'operationalPerspective',
             component: operationalPerspective
         },
+
+        /** 决策分析 **/
+
+        /** 威胁预警 **/
         {
             path: '/threatWarning/emailWarning',
             name: '',
@@ -65,6 +75,8 @@ export default new Router({
             name: '',
             component: smsWarning
         },
+
+        /** 威胁处置 **/
         {
             path: '/threatDisposal/attackBlock',
             name: '',
@@ -75,6 +87,8 @@ export default new Router({
             name: '',
             component: jointDefense
         },
+
+        /** 威胁报告 **/
         {
             path: '/threatReport',
             name: '',
@@ -107,6 +121,8 @@ export default new Router({
                 }
             ]
         },
+
+        /** 规则配置 **/
         {
             path: '/ruleConfig',
             name: '',
@@ -161,6 +177,8 @@ export default new Router({
                 }
             ]
         },
+
+        /** 业务配置 **/
         {
             path: '/businessConfig',
             name: '',
@@ -193,6 +211,8 @@ export default new Router({
                 }
             ]
         },
+
+        /** 系统配置 **/
         {
             path: '/systemConfig/userManage',
             name: 'user-manage',
