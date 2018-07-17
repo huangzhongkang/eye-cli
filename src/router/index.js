@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 /** 威胁侦测 **/
 import operationalPerspective
-    from '@/components/pages/threat-detection/operational-perspective/operational-perspective.vue'
+  from '@/components/pages/threat-detection/operational-perspective/operational-perspective.vue'
 
 /** 决策分析 **/
 import attackAnalysis from '@/components/pages/decision-analysis/attack-analysis/attack-analysis'
@@ -53,175 +53,190 @@ import factoryConfig from '@/components/pages/system-config/factory-config/facto
 Vue.use(Router);
 
 export default new Router({
-    routes: [
-        /** 威胁侦测 **/
-        {
-            path: '/',
-            // path: '/operationalPerspective',
-            name: 'operationalPerspective',
-            component: operationalPerspective
-        },
+  routes: [
+    /** 威胁侦测 **/
+    {
+      path: '/',
+      // path: '/operationalPerspective',
+      name: 'operationalPerspective',
+      component: operationalPerspective
+    },
 
-        /** 决策分析 **/
+    /** 决策分析 **/
+    {
+      path: '/decisionAnalysis/attackAnalysis',
+      name: '',
+      component: attackAnalysis
+    },
+    {
+      path: '/decisionAnalysis/assetsAnalysis',
+      name: '',
+      component: assetsAnalysis
+    },
+    {
+      path: '/decisionAnalysis/attackDistribution',
+      name: '',
+      component: attackDistribution
+    },
 
-        /** 威胁预警 **/
-        {
-            path: '/threatWarning/emailWarning',
-            name: '',
-            component: emailWarning
-        },
-        {
-            path: '/threatWarning/smsWarning',
-            name: '',
-            component: smsWarning
-        },
+    /** 威胁预警 **/
+    {
+      path: '/threatWarning/emailWarning',
+      name: '',
+      component: emailWarning
+    },
+    {
+      path: '/threatWarning/smsWarning',
+      name: '',
+      component: smsWarning
+    },
 
-        /** 威胁处置 **/
-        {
-            path: '/threatDisposal/attackBlock',
-            name: '',
-            component: attackBlock
-        },
-        {
-            path: '/threatDisposal/jointDefense',
-            name: '',
-            component: jointDefense
-        },
+    /** 威胁处置 **/
+    {
+      path: '/threatDisposal/attackBlock',
+      name: '',
+      component: attackBlock
+    },
+    {
+      path: '/threatDisposal/jointDefense',
+      name: '',
+      component: jointDefense
+    },
 
-        /** 威胁报告 **/
+    /** 威胁报告 **/
+    {
+      path: '/threatReport',
+      name: '',
+      component: threatReport,
+      children: [
         {
-            path: '/threatReport',
-            name: '',
-            component: threatReport,
-            children: [
-                {
-                    path: '/threatReport/currentReport',
-                    name: '',
-                    component: currentReport,
-                },
-                {
-                    path: '/threatReport/securityWeeklyReport',
-                    name: '',
-                    component: securityWeekly,
-                },
-                {
-                    path: '/threatReport/securityMonthReport',
-                    name: '',
-                    component: securityMonth,
-                },
-                {
-                    path: '/threatReport/securitySeasonReport',
-                    name: '',
-                    component: securitySeason,
-                },
-                {
-                    path: '/threatReport/securityYearReport',
-                    name: '',
-                    component: securityYear,
-                }
-            ]
-        },
-
-        /** 规则配置 **/
-        {
-            path: '/ruleConfig',
-            name: '',
-            component: ruleConfig,
-            children: [
-                {
-                    path: '/ruleConfig/ruleManage',
-                    name: '',
-                    component: ruleManage
-                },
-                {
-                    path: '/ruleConfig/ruleStrategy',
-                    name: '',
-                    component: ruleStrategy
-                },
-                {
-                    path: '/ruleConfig/ruleEntry',
-                    name: '',
-                    component: ruleEntry,
-                    children: [
-                        {
-                            path: '/ruleConfig/ruleEntry/ruleCombination',
-                            name: '',
-                            component: ruleCombination
-                        },
-                        {
-                            path: '/ruleConfig/ruleEntry/ruleRequest',
-                            name: '',
-                            component: ruleRequest
-                        },
-                        {
-                            path: '/ruleConfig/ruleEntry/ruleReturn',
-                            name: '',
-                            component: ruleReturn
-                        },
-                        {
-                            path: '/ruleConfig/ruleEntry/ruleCommon',
-                            name: '',
-                            component: ruleCommon
-                        },
-                        {
-                            path: '/ruleConfig/ruleEntry/ruleType',
-                            name: '',
-                            component: ruleType
-                        },
-                        {
-                            path: '/ruleConfig/ruleEntry/ruleTool',
-                            name: '',
-                            component: ruleTool
-                        }
-                    ]
-                }
-            ]
-        },
-
-        /** 业务配置 **/
-        {
-            path: '/businessConfig',
-            name: '',
-            component: businessConfig,
-            children: [
-                {
-                    path: '/assetsConfig/assetsGrouping',
-                    name: '',
-                    component: assetsGrouping
-                },
-                {
-                    path: '/assetsConfig/assetsNote',
-                    name: '',
-                    component: assetsNote
-                },
-                {
-                    path: '/assetsConfig/manageOperation',
-                    name: '',
-                    component: manageOperation
-                },
-                {
-                    path: '/assetsConfig/globalConfig',
-                    name: '',
-                    component: globalConfig
-                },
-                {
-                    path: '/assetsConfig/sensitivePortConfig',
-                    name: '',
-                    component: sensitivePortConfig
-                }
-            ]
-        },
-
-        /** 系统配置 **/
-        {
-            path: '/systemConfig/userManage',
-            name: 'user-manage',
-            component: userManage
+          path: '/threatReport/currentReport',
+          name: '',
+          component: currentReport,
         },
         {
-            path: '/systemConfig/factoryConfig',
-            name: '',
-            component: factoryConfig
+          path: '/threatReport/securityWeeklyReport',
+          name: '',
+          component: securityWeekly,
+        },
+        {
+          path: '/threatReport/securityMonthReport',
+          name: '',
+          component: securityMonth,
+        },
+        {
+          path: '/threatReport/securitySeasonReport',
+          name: '',
+          component: securitySeason,
+        },
+        {
+          path: '/threatReport/securityYearReport',
+          name: '',
+          component: securityYear,
         }
-    ]
+      ]
+    },
+
+    /** 规则配置 **/
+    {
+      path: '/ruleConfig',
+      name: '',
+      component: ruleConfig,
+      children: [
+        {
+          path: '/ruleConfig/ruleManage',
+          name: '',
+          component: ruleManage
+        },
+        {
+          path: '/ruleConfig/ruleStrategy',
+          name: '',
+          component: ruleStrategy
+        },
+        {
+          path: '/ruleConfig/ruleEntry',
+          name: '',
+          component: ruleEntry,
+          children: [
+            {
+              path: '/ruleConfig/ruleEntry/ruleCombination',
+              name: '',
+              component: ruleCombination
+            },
+            {
+              path: '/ruleConfig/ruleEntry/ruleRequest',
+              name: '',
+              component: ruleRequest
+            },
+            {
+              path: '/ruleConfig/ruleEntry/ruleReturn',
+              name: '',
+              component: ruleReturn
+            },
+            {
+              path: '/ruleConfig/ruleEntry/ruleCommon',
+              name: '',
+              component: ruleCommon
+            },
+            {
+              path: '/ruleConfig/ruleEntry/ruleType',
+              name: '',
+              component: ruleType
+            },
+            {
+              path: '/ruleConfig/ruleEntry/ruleTool',
+              name: '',
+              component: ruleTool
+            }
+          ]
+        }
+      ]
+    },
+
+    /** 业务配置 **/
+    {
+      path: '/businessConfig',
+      name: '',
+      component: businessConfig,
+      children: [
+        {
+          path: '/assetsConfig/assetsGrouping',
+          name: '',
+          component: assetsGrouping
+        },
+        {
+          path: '/assetsConfig/assetsNote',
+          name: '',
+          component: assetsNote
+        },
+        {
+          path: '/assetsConfig/manageOperation',
+          name: '',
+          component: manageOperation
+        },
+        {
+          path: '/assetsConfig/globalConfig',
+          name: '',
+          component: globalConfig
+        },
+        {
+          path: '/assetsConfig/sensitivePortConfig',
+          name: '',
+          component: sensitivePortConfig
+        }
+      ]
+    },
+
+    /** 系统配置 **/
+    {
+      path: '/systemConfig/userManage',
+      name: 'user-manage',
+      component: userManage
+    },
+    {
+      path: '/systemConfig/factoryConfig',
+      name: '',
+      component: factoryConfig
+    }
+  ]
 })
