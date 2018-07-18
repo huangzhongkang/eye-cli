@@ -18,7 +18,7 @@
                 <!--失陷主机排行-->
                 <el-tab-pane name="third">
                     <span slot="label">失陷主机排行</span>
-
+                    <LoseHost></LoseHost>
                 </el-tab-pane>
             </el-tabs>
         </div>
@@ -28,11 +28,13 @@
 <script>
     import Hacker from './children/assets-hacker'
     import Attacked from './children/assets-attacked'
+    import LoseHost from './children/lose-host'
 
     export default {
         components: {
             Hacker,
-            Attacked
+            Attacked,
+            LoseHost
         },
         data() {
             return {

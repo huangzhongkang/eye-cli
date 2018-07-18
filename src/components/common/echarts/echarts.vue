@@ -36,9 +36,22 @@
             <div id="attack-hacker-ranking" style="height: 400px;"></div>
         </div>
         <div v-if="assets_attacked" class="col-sm-12">
-            <div id="assets-attacked-ranking" style="width:100%;height: 400px;"></div>
+            <div id="assets-attacked-ranking" style="width: 1024px; height: 400px;"></div>
+        </div>
+        <div v-if="lose_host" class="col-sm-12">
+            <div id="lose-host-ranking" style="width: 1024px; height: 400px;">
+                <!--暂无数据-->
+                <div class="pull-left  flex" style="width: 100%; min-height: 400px;padding: 0 15px;">
+                    <div class="no-data">
+                        <img src="@/assets/img/tan.png" alt="">&nbsp;&nbsp;暂无排行数据
+                    </div>
+                </div>
+            </div>
         </div>
         <!--攻击分布-->
+        <div v-if="global_country">
+            <div id="global-country" style="width: 100%;height: 600px;"></div>
+        </div>
 
         <!--业务配置=>敏感端口统计-->
         <div v-if="statiscalPort" class="col-md-12">
@@ -138,9 +151,9 @@
      * 柱状图组件
      * 提示框和title组件
      * **/
-    import echarts from 'echarts';
-
+    import echarts from 'echarts'
     require('echarts/map/js/world');
+    require('echarts/map/js/china');
 
     export default {
         props: [
@@ -153,6 +166,8 @@
             //资产分析
             'assets_analysis_ranking',
             'assets_attacked',
+            'lose_host',
+            'global_country',
 
             /**
              * 业务配置=>
@@ -179,6 +194,8 @@
                 option_attackAnalysis: {},
                 // 资产分析排行
                 option_assetsAnalysis: {},
+                // 攻击分布
+                option_globalCountry: {},
 
                 /**
                  * Option通用
@@ -202,13 +219,14 @@
             if (this.attack_analysis) { // 攻击分析
                 this.attackBackIPTop10();
                 this.attackTypeTop10();
-            }
-            if (this.assets_analysis_ranking) {
+            } else if (this.assets_analysis_ranking) {
                 this.assetsHackRanking();
-
-            }
-            if (this.assets_attacked) {
+            } else if (this.assets_attacked) {
                 this.assetsAttackedRanking();
+            }
+
+            if (this.global_country) { // 全国分布
+                this.globalCountry();
             }
 
             if (this.statiscalPort) {// 业务配置=>敏感端口
@@ -225,7 +243,6 @@
                 this.weeklyTypeDistribution();
                 this.weeklyWeeklyStatistical();
                 this.weeklyMalicious_global();
-                // this.test()
             }
         },
         methods: {
@@ -354,6 +371,41 @@
                 };
                 this.option_assetsAnalysis.yAxis[0].data = new Array();
                 this.option_assetsAnalysis.series[0].data = new Array();
+            },
+            // 攻击分布全国、全球地图
+            optionGlobalCountry() {
+                this.option_globalCountry = {
+                    tooltip: {
+                        trigger: 'item',
+                        formatter: '{a}<br>{b}：{c}',
+                        textStyle: {
+                            align: 'left'
+                        }
+                    },
+                    dataRange: {
+                        min: 0,
+                        max: 0,
+                        x: 'left',
+                        y: 'bottom',
+                        text: ['高', '低'],
+                        calculable: true,
+                        color: ['#32AEDE', '#DFFEFE']
+                    },
+                    series: [
+                        {
+                            name: '恶意IP',
+                            type: 'map',
+                            mapType: 'china',
+                            roam: false,
+                            zoom: 1.1,
+                            itemStyle: {
+                                normal: {label: {show: true}},
+                                emphasis: {label: {show: true}}
+                            },
+                            data: []
+                        }
+                    ]
+                };
             },
 
             /** 当前报告 **/
@@ -731,7 +783,6 @@
                 let myChart = echarts.init(document.getElementById('attack-type'), 'macarons');
                 this.$http.get('../../../../static/json/attack-analysis/attackBackIPTop10.json').then(res => {
                     let cdata = res.data.attackType[0];
-                    console.log(cdata);
                     this.optionAttackAnalysis();
                     this.option_attackAnalysis.title.text = '被攻击资产排行';
                     for (let i = cdata.name.length - 1; i >= 0; i--) {
@@ -767,13 +818,11 @@
             },
             // 资产被攻击排行
             assetsAttackedRanking() {
-                // alert(this.assets_attacked)
                 let myChart = echarts.init(document.getElementById('assets-attacked-ranking'), 'macarons');
-                console.log('attack-attacked-ranking');
-                // this.option_assetsAnalysis.title.text = '资产黑客数排行【主机数：1台】';
                 this.$http.get('../../../../static/json/assets-hacker-ranking/assets-hacker-ranking.json').then(res => {
                     let cdata = res.data.assetsHackerRanking[0];
                     this.optionAssetsAnalysis();
+                    this.option_assetsAnalysis.title.text = '资产被攻击次数【主机数：1817台】';
                     if (cdata.name.length > 1000) cdata.name.length = 1000;
                     if (cdata.name.length > 10) {
                         let znums = parseInt((10 / cdata.name.length) * 100);
@@ -787,6 +836,24 @@
                     }
 
                     myChart.setOption(this.option_assetsAnalysis);
+                });
+            },
+            /** 攻击分布 **/
+            // 全国分布
+            globalCountry() {
+                let myChart = echarts.init(document.getElementById('global-country'));
+                this.$http.get('../../../../static/json/global-distribution/global.json').then(res => {
+                    let cdata = res.data.country;
+                    this.optionGlobalCountry();
+                    this.option_globalCountry.dataRange.max = parseInt('53');
+                    for (let i=0; i<cdata.length; i++) {
+                        let obj = {
+                            name: cdata[i].name,
+                            value: cdata[i].value
+                        };
+                        this.option_globalCountry.series[0].data.push(obj);
+                    }
+                    myChart.setOption(this.option_globalCountry);
                 });
             },
 
